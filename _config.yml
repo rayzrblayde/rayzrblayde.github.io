@@ -1,6 +1,6 @@
 title: "Joshua Hardy"
 author: "Joshua hardy"
-description: "Made with <b style=\"color: #f45;\">&lt;3</b>"
+description: 'Made with <b style="color: #f45;">&lt;3</b>'
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -8,26 +8,26 @@ date_format: "%B %d, %Y"
 
 # Layout
 
-show_excerpts: true        # show article excerpts on the home page
-show_frame: true           # adds a gray frame to the site
-show_sidebar: false        # show a sidebar instead of the usual header
-minimal: false             # use a dark header
+show_excerpts: true # show article excerpts on the home page
+show_frame: true # adds a gray frame to the site
+show_sidebar: false # show a sidebar instead of the usual header
+minimal: false # use a dark header
 
 # Menu
 
-navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "My Resume",title: "Resume", icon: home}
-  - {file: "README.md", title: "About Me", icon: address-card}
-  - {title: "Random Thing" url: "https://youtube.com"}
+navigation: # accepts {file, title, url, icon, sidebaricon}
+  - { file: "My Resume", title: "Resume", icon: home }
+  - { file: "README.md", title: "About Me", icon: address-card }
+  - { title: "Random Thing", url: "https://youtube.com" }
 
-external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:jhardyjobs158@gmail.com"}
-  - {title: Github, icon: github, url: "https://github.com/rayzrblayde"}
-  - {title: Twitter, icon: twitter, url: "https://x.com/rayzrblayde"}
+external: # shows a footer with social links - for available icons see fontawesome.com/icons
+  - { title: Mail, icon: envelope, url: "mailto:jhardyjobs158@gmail.com" }
+  - { title: Github, icon: github, url: "https://github.com/rayzrblayde" }
+  - { title: Twitter, icon: twitter, url: "https://x.com/rayzrblayde" }
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
 #  isso_domain: ""         # see https://posativ.org/isso/
 
 plugins:
- - jekyll-feed
+  - jekyll-feed
